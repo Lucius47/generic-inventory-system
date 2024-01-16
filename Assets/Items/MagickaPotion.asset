@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1666645176580ee44800e930ab9e34b6, type: 3}
+  m_Name: MagickaPotion
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 8026086392402265503, guid: f07e995127084b8418ecc4222a27b216, type: 3}
+  itemSprite: {fileID: 21300000, guid: e70c6b813aa0b1d478a479dbdb079d98, type: 3}
+  itemName: Magicka Potion
+  itemDescription: restores magicka
+  itemType: 1
+  itemValue: 70
+  itemWeight: 1
+  itemRarity: 1
+  effectOnHealth: 0
+  effectOnMana: 10
+  effectOnStamina: 0
+  itemDamage: 0
+  itemAgility: 0

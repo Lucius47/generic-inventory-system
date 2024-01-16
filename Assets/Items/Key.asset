@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1666645176580ee44800e930ab9e34b6, type: 3}
+  m_Name: Key
+  m_EditorClassIdentifier: 
+  itemPrefab: {fileID: 2777879147346874517, guid: 9db50a4d9a487d24e859a1e978ffb7ed, type: 3}
+  itemSprite: {fileID: 21300000, guid: 98bdc92a0f6807e4ab1d0575ea65a099, type: 3}
+  itemName: Key
+  itemDescription: a mysterious golden key
+  itemType: 2
+  itemValue: 0
+  itemWeight: 0
+  itemRarity: 5
+  effectOnHealth: 0
+  effectOnMana: 0
+  effectOnStamina: 0
+  itemDamage: 0
+  itemAgility: 0
