@@ -21,6 +21,8 @@ public class SelectedItemInfoDisplayer : MonoBehaviour
     {
         if (item != null)
         {
+            ToggleAllElements(true);
+
             itemImage.sprite = item.itemSprite;
             itemNameText.text = item.Name;
             itemDescriptionText.text = item.Description;
@@ -62,18 +64,23 @@ public class SelectedItemInfoDisplayer : MonoBehaviour
         }
         else // Show placeholder info.
         {
-            itemImage.gameObject.SetActive(false);
-            itemNameText.gameObject.SetActive(false);
-            itemDescriptionText.gameObject.SetActive(false);
-            itemTypeText.gameObject.SetActive(false);
-            itemHealthText.gameObject.SetActive(false);
-            itemManaText.gameObject.SetActive(false);
-            itemStaminaText.gameObject.SetActive(false);
-            itemDamageText.gameObject.SetActive(false);
-            itemAgilityText.gameObject.SetActive(false);
-
-            dropButton.gameObject.SetActive(false);
-            dropButton.gameObject.SetActive(false);
+            ToggleAllElements(false);
         }
+    }
+
+    private void ToggleAllElements(bool state)
+    {
+        itemImage.gameObject.SetActive(state);
+        itemNameText.gameObject.SetActive(state);
+        itemDescriptionText.gameObject.SetActive(state);
+        itemTypeText.gameObject.SetActive(state);
+        itemHealthText.gameObject.SetActive(state);
+        itemManaText.gameObject.SetActive(state);
+        itemStaminaText.gameObject.SetActive(state);
+        itemDamageText.gameObject.SetActive(state);
+        itemAgilityText.gameObject.SetActive(state);
+
+        equipUseButton.gameObject.SetActive(state);
+        dropButton.gameObject.SetActive(state);
     }
 }
