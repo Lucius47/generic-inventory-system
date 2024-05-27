@@ -262,7 +262,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 177542777}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceea5383dd2d1bc49b180943fbb57c81, type: 3}
+  m_Script: {fileID: 11500000, guid: eb40176c8e313324ca01be32903e580f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   selectedPlayer: {fileID: 832368360}
@@ -876,7 +876,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 551078806}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9604ca8a48b52bb4794c35756e373f0b, type: 3}
+  m_Script: {fileID: 11500000, guid: 4e1631c6ede1ec142a24ff554538fb21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &680747159
@@ -905,10 +905,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 680747159}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 609ca5a4da6c5a64688986ccbba1d598, type: 3}
+  m_Script: {fileID: 11500000, guid: c4d8135de84f6ac4abb2f09774f34358, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerTransform: {fileID: 0}
+  playerTransform: {fileID: 832368359}
   speed: 0.1
 --- !u!4 &680747161
 Transform:
@@ -1035,7 +1035,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832368359}
   - component: {fileID: 832368360}
-  - component: {fileID: 832368361}
+  - component: {fileID: 832368365}
   - component: {fileID: 832368363}
   - component: {fileID: 832368362}
   - component: {fileID: 832368364}
@@ -1073,7 +1073,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 832368354}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 014349a1ebdff824491300e7f2baf9a3, type: 3}
+  m_Script: {fileID: 11500000, guid: 5dc47a15a7ea74343b567400940275fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   characterName: player1
@@ -1081,23 +1081,10 @@ MonoBehaviour:
   health: 10
   mana: 10
   stamina: 10
-  healthBar: {fileID: 981432882}
-  manaBar: {fileID: 987272322}
-  staminaBar: {fileID: 374056178}
+  healthBar: {fileID: 1859442379}
+  manaBar: {fileID: 1901608145}
+  staminaBar: {fileID: 844940388}
   equipmentParent: {fileID: 17519537}
---- !u!114 &832368361
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832368354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cfc3c0505d567f4087e043ba40f0b6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!54 &832368362
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1158,6 +1145,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1f10c3937b9d747ba9fe803c08bb3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &832368365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 832368354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5fc888397e07af4a87b17f37c6e3e48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &844940386
 GameObject:
   m_ObjectHideFlags: 0

@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88e1d2f5141d6cd4ba9816d89aeff680, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemDisplayerPrefab: {fileID: 811628363007651719, guid: 6ff23e9b21172aa4aa2c73f3bc66c5fc, type: 3}
+  itemDisplayerPrefab: {fileID: 811628363007651719, guid: 64bb307f749d2a74f854662fcfe37daf, type: 3}
   itemsTransform: {fileID: 8663602019463948287}
   sortDropdown: {fileID: 2364657820696355280}
   filterDropdown: {fileID: 4734500217284780689}
